@@ -8,7 +8,6 @@
     <h2>User Registration Form</h2>
 
     <form method="POST" action="{{ url('/register') }}" enctype="multipart/form-data">
-        @csrf
         <!-- No @csrf directive, Laravel will handle CSRF protection automatically -->
 
         <label for="name">Name:</label>
